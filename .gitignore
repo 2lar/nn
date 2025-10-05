@@ -1,0 +1,83 @@
+###########################
+# Python / DS .gitignore  #
+###########################
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Installer logs / wheels
+pip-log.txt
+pip-wheel-metadata/
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+
+# Type checkers / linters
+.mypy_cache/
+.pyre/
+.pytype/
+.ruff_cache/
+
+# IDE / editor settings
+.vscode/
+.idea/
+*.iml
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS noise
+.DS_Store
+Thumbs.db
+
+# Data science artifacts (optional)
+# Uncomment entries below if you don’t want them tracked.
+# data/
+# datasets/
+# output/
+# outputs/
+# models/
+# checkpoints/
+# runs/
+# wandb/
+# mlruns/
+# lightning_logs/
+# *.csv
+# *.tsv
+# *.parquet
+# *.feather
+# *.h5
+# *.hdf5
+# *.ckpt
+# *.pth
+# *.pt
+# *.onnx
+# *.tflite
+# *.npz
+# *.npy
+# *.pkl
+# *.joblib
+# *.log
